@@ -41,7 +41,10 @@ new Vue (
             ],
 
             starred: [1, 2, 3],
-            applied: [4, 5]
+            applied: [4, 5],
+
+
+            favoriteList: ''
 
 
 
@@ -50,13 +53,14 @@ new Vue (
 
 
 
-
-
-
-        }
+        },
 
         methods: {
-            
-        }
+            addFavorite: function () {
+                this.jobs.push({
+                   
+                })
+            }
+        }  
     }
 )
