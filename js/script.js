@@ -54,5 +54,9 @@ new Vue (
 
 
         }
+
+        methods: {
+            
+        }
     }
 )

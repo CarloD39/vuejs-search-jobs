@@ -1,7 +1,19 @@
 .main-container {
     border: 2px solid black;
 }
+.section-job{
+    border-bottom: 1px solid black;
+    background-color: rgb(61, 170, 233);
+}
 
 ul{
     list-style-type: none;
+}
+
+.star-item{
+    cursor: pointer;
+}
+
+.star-item:hover{
+    color: gold;
 }

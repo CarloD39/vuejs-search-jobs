@@ -20,7 +20,7 @@
     <div id="search-app">
         <div class=" main-container container">
             <div class="job-list">
-                <div v-for="(field) in jobs" class="row">
+                <div v-for="(field) in jobs" class="row section-job">
                     <ul class="col-12">
                         <li>{{field.id}}</li>
                         <li>{{field.position}}</li>
@@ -30,10 +30,9 @@
                         <li>{{field.city}}</li>
                         <li>{{field.contract}}</li>
                     </ul>
-                    <div class="col-12">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    
+                    <div class="star-item col-2">
+                        <i @click="addFavorite" class="fas fa-star"></i>
+                    </div>                    
                 </div>
                 
             </div>
